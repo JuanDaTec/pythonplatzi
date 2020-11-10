@@ -9,8 +9,7 @@ def ordenamiento_de_burbuja(lista):
             if lista[j] > lista[j+1]:
                 lista[j], lista[j+1] = lista [j+1], lista [j] #swapping
     return lista
-
-
+##realizando cambios de prueba.
 if __name__ == '__main__':
     tamano_de_lista = int(input('De que tamano sera la lista? '))
     
